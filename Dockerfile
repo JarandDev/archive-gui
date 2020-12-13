@@ -12,5 +12,4 @@ FROM nginx
 
 COPY --from=build build/ /etc/nginx/html/build/
 RUN rm /etc/nginx/conf.d/default.conf
-LABEL org.opencontainers.image.source https://github.com/JarandArchive/archive-gui
 COPY nginx.conf /etc/nginx/conf.d/default.conf
