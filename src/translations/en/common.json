@@ -1,0 +1,65 @@
+{
+  "title": "Archive",
+  "archive": "Archive",
+  "loggedInAs": "Logged in as",
+  "login": "Login",
+  "profile": "Profile",
+  "bakery": "Bakery",
+  "place": "Place",
+  "yearFound": "Year found",
+  "coarseness": "Coarseness",
+  "none": "None",
+  "filtersSelected": "{{filterCount}} filters selected",
+  "hideFilters": "Hide filters",
+  "showFilters": "Show filters",
+  "clearFilters": "Clear filters",
+  "seeDetails": "See details",
+  "close": "Close",
+  "settings": "Settings",
+  "numberOfElements": "Number of elements",
+  "editData": "Edit data",
+  "uploadFile": "Upload file",
+  "deleteData": "Delete data",
+  "deleteItemsTitle": "Confirm deletion of data",
+  "deleteItemsDescription": "Are you sure you want to delete all items in this archive? This will delete items and all connections to images, but images will NOT be deleted. Click the button below to delete all items.",
+  "deleteItemsSuccess": "Deleted {{deleted}} items",
+  "deleteItemsError": "Failed when trying to delete items",
+  "uploadTitle": "Upload data",
+  "uploadDescription": "Upload data from a CSV file. Existing items will be updated if they are changed. New items will be added.",
+  "uploadSuccess": "Uploaded. (Added: {{added}}. Updated: {{updated}}. Unchanged: {{unchanged}}.)",
+  "uploadError": "Failed to upload file",
+  "noFileSelected": "No file selected",
+  "archive-api": {
+    "archive": {
+      "invalid-content-type": "Invalid content type: application/vnd.ms-excel is expected"
+    }
+  },
+  "connectDataAndImages": "Connect data and images",
+  "year": "Year",
+  "frontSide": "Front side",
+  "backSide": "Back side",
+  "chooseElement": "Choose element",
+  "moreInfo": "More info",
+  "connectItemToImages": "Connect item to images",
+  "previous": "Previous",
+  "next": "Next",
+  "permissionsDenied": "You do not have permission to view this page",
+  "selectYearInfo": "Select year from the dropdown above to get started",
+  "noImagesToConnect": "All images for this year has been connected to an item or there are no images for this year",
+  "noItemSelected": "No item selected",
+  "connectSuccess": "Connected item {{id}} to {{imageFront}} and {{imageBack}}",
+  "connectError": "Failed to connect item and images",
+  "archives": {
+    "breadBags": {
+      "name": "Bread bags",
+      "description": "The bread bag archive is an ever-growing collection of bread bags from all over Norway. The project started in 2013 and the collection today consists of more than 550 bread bags. Jens Petter Homleid is the person behind the collection.",
+      "goToLinkText": "Go to the archive",
+      "editLinkText": "Edit archive"
+    },
+    "settings": {
+      "breadBags": {
+        "title": "Settings: Bread bags archive"
+      }
+    }
+  }
+}

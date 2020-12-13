@@ -1,0 +1,65 @@
+{
+  "title": "Arkivet",
+  "archive": "Arkiv",
+  "loggedInAs": "Logget inn som",
+  "login": "Logg inn",
+  "profile": "Profil",
+  "bakery": "Bakeri",
+  "place": "Sted",
+  "yearFound": "År funnet",
+  "coarseness": "Grovhet",
+  "none": "Ingen",
+  "filtersSelected": "{{filterCount}} filter valgt",
+  "hideFilters": "Skjul filter",
+  "showFilters": "Vis filter",
+  "clearFilters": "Tøm filter",
+  "seeDetails": "Se detaljer",
+  "close": "Lukk",
+  "settings": "Innstillinger",
+  "numberOfElements": "Antall gjenstander",
+  "editData": "Rediger data",
+  "uploadFile": "Last opp fil",
+  "deleteData": "Slett data",
+  "deleteItemsTitle": "Bekreft sletting av data",
+  "deleteItemsDescription": "Er du sikker på at du vil slette alle gjenstander i dette arkivet? Dette vil slette alle gjenstander og alle koblinger til bilder, men bildene vil IKKE bli slettet. Trykk på knappen under for å slette alle gjenstander.",
+  "deleteItemsSuccess": "Slettet {{deleted}} gjenstander",
+  "deleteItemsError": "Feilet ved forsøk på sletting av data",
+  "uploadTitle": "Last opp data",
+  "uploadDescription": "Last opp data fra en CSV fil. Eksisterende gjenstander vil bli oppdatert hvis de er endret. Nye gjenstander vil bli lagt til.",
+  "uploadSuccess": "Lastet opp. (Lagt til: {{added}}. Oppdatert: {{updated}}. Uendret: {{unchanged}}.)",
+  "uploadError": "Feilet ved opplasting av fil",
+  "noFileSelected": "Ingen fil valgt",
+  "archive-api": {
+    "archive": {
+      "invalid-content-type": "Ugyldig filtype: Forventet application/vnd.ms-excel"
+    }
+  },
+  "connectDataAndImages": "Koble sammen data og bilder",
+  "year": "År",
+  "frontSide": "Forside",
+  "backSide": "Bakside",
+  "chooseElement": "Velg gjenstand",
+  "moreInfo": "Mer informasjon",
+  "connectItemToImages": "Koble gjenstand til bilder",
+  "previous": "Forrige",
+  "next": "Neste",
+  "permissionsDenied": "Du har ikke tilgang til å se denne siden",
+  "selectYearInfo": "Velg år fra nedtrekkslisten over for å komme i gang",
+  "noImagesToConnect": "Alle bilder for dette året har blitt koblet til en gjenstand eller det er ingen bilder for dette året",
+  "noItemSelected": "Ingen gjenstand valgt",
+  "connectSuccess": "Koblet gjenstand {{id}} til {{imageFront}} og {{imageBack}}",
+  "connectError": "Feilet ved kobling av gjenstand og bilder",
+  "archives": {
+    "breadBags": {
+      "name": "Brødposer",
+      "description": "Brødposearkivet er en stadig voksende samling av brødposer fra hele Norge. Prosjektet startet i 2013 og samlingen består i dag av mer enn 550 brødposer. Jens Petter Homleid er personen bak samlingen.",
+      "goToLinkText": "Gå til arkivet",
+      "editLinkText": "Rediger arkivet"
+    },
+    "settings": {
+      "breadBags": {
+        "title": "Innstillinger: Brødposearkivet"
+      }
+    }
+  }
+}

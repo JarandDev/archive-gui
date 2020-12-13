@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    align-items: center;
+}
+
+.FlexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.FlexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexEvenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Panel {
+    padding: 10px;
+}
+
+.Hide {
+    visibility: hidden
+}
+
+.DisplayNone {
+    display: none;
+}
+
+.Pointer {
+    cursor: pointer;
+}
