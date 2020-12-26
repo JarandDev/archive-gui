@@ -10,7 +10,7 @@ import {getImageNamesForYear} from "../../../services/importDataService";
 import "./ImageDataConnector.css";
 import Alert from "@material-ui/lab/Alert";
 import MoreInfoDialog from "./MoreInfoDialog";
-import {IMAGES_BASE_URL} from "../../../constants/urls";
+import {getFirebaseImageUrl} from "../../../constants/urls";
 
 function ImageDataConnector() {
     const [items, setItems] = React.useState([]);
@@ -113,12 +113,12 @@ function ImageDataConnector() {
                     <div className="FlexCenter">
                         <img
                             className="SettingsImage"
-                            src={`${IMAGES_BASE_URL}/${yearSelected}/${images.imageNames[imageFrontIndex]}`}
+                            src={getFirebaseImageUrl(yearSelected, images.imageNames[imageFrontIndex])}
                             alt="bread bag"
                         />
                         <img
                             className="SettingsImage"
-                            src={`${IMAGES_BASE_URL}/${yearSelected}/${images.imageNames[imageFrontIndex + 1]}`}
+                            src={getFirebaseImageUrl(yearSelected, images.imageNames[imageFrontIndex + 1])}
                             alt="bread bag"
                         />
                     </div>

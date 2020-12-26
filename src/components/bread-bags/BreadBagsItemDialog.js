@@ -12,7 +12,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import CardMedia from "@material-ui/core/CardMedia";
 import Card from "@material-ui/core/Card";
 import ItemInfoList from "../common/ItemInfoList";
-import {IMAGES_BASE_URL} from "../../constants/urls";
+import {getFirebaseImageUrl} from "../../constants/urls";
 
 const useStyles = makeStyles(() => ({
     media: {
@@ -50,7 +50,7 @@ function BreadBagsItemDialog({item, onClose}) {
                     <Card>
                         <CardMedia
                             className={classes.media}
-                            image={`${IMAGES_BASE_URL}/${date.getFullYear()}/${item.imageFront}`}
+                            image={getFirebaseImageUrl(date.getFullYear(), item.imageFront)}
                             title="bread bags item"
                         />
                     </Card>
@@ -59,7 +59,7 @@ function BreadBagsItemDialog({item, onClose}) {
                     <Card>
                         <CardMedia
                             className={classes.media}
-                            image={`${IMAGES_BASE_URL}/${date.getFullYear()}/${item.imageBack}`}
+                            image={getFirebaseImageUrl(date.getFullYear(), item.imageBack)}
                             title="bread bags item"
                         />
                     </Card>

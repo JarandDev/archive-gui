@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import {useTranslation} from "react-i18next";
 import Typography from "@material-ui/core/Typography";
 import BreadBagsItemDialog from "./BreadBagsItemDialog";
-import {IMAGES_BASE_URL} from "../../constants/urls";
+import {getFirebaseImageUrl} from "../../constants/urls";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -39,7 +39,7 @@ function BreadBagsItem({item}) {
             {seeDetails && <BreadBagsItemDialog item={item} onClose={handleDialogClose}/>}
             <CardMedia
                 className={classes.media}
-                image={`${IMAGES_BASE_URL}/${date.getFullYear()}/${item.imageFront}`}
+                image={getFirebaseImageUrl(date.getFullYear(), item.imageFront)}
                 title="bread bags item"
             />
             <Typography paragraph><b>{item.breadName}</b></Typography>
